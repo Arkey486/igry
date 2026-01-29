@@ -146,7 +146,7 @@
 
     function sendWhatsApp(){
         const name = document.getElementById('nameInput').value || 'Участник';
-        const phone = '77000000000'; // ЗАМЕНИ НА НУЖНЫЙ НОМЕР
+        const phone = '77478968087'; // ЗАМЕНИ НА НУЖНЫЙ НОМЕР
         const text = encodeURIComponent(`Здравствуйте! Я подтверждаю участие в интеллектуальной игре. Имя: ${name}`);
         window.open(`https://wa.me/${phone}?text=${text}`, '_blank');
         confetti({ particleCount: 150, spread: 70, origin: { y: 0.6 } });
@@ -165,3 +165,4 @@
 
 </body>
 </html>
+
